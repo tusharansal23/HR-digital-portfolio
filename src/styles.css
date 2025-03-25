@@ -214,6 +214,14 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 768px) {
+  .package-card:hover .package-image {
+    transform: none !important;
+    position: static !important;
+    box-shadow: none !important;
+  }
+}
+
 /* Content Styling */
 .package-content {
   padding: 15px;
