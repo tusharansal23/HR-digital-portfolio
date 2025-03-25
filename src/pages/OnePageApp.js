@@ -13,7 +13,7 @@ const projects = [
 
 const tieUps = [
   { name: "MW International", image: "mw-demo.jpg", website: "https://mwinternationalacademy.com" },
-  { name: "HD GLOW SPA", image: "hd-demo.jpg", website: "https://hdglowluxuryspa.website3.me/" },
+  { name: "Ankit Furniture", image: "ankit-demo.jpg", website: "https://ankit-furniture-yg2q8jjodlfwpovv.builder-preview.com" },
 ];
 
 const packages = [
