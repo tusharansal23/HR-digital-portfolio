@@ -337,7 +337,11 @@ body {
     background: #007bff;
     color: white;
   }
-  
+  @media (max-width: 768px) {
+    .footer {
+      margin-top: 700px;
+    }
+  }
   /* Page Styles */
   .page {
     padding: 40px;

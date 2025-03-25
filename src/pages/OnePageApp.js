@@ -64,17 +64,15 @@ const OnePageApp = () => {
 
       {/* Projects Section */}
       <section className="services">
-      <div className="container">
+      <div className="container projects-section">
         <h2 className="title">Our Projects</h2>
         <div className="projects-grid">
-          {projects.map((project, index) => (
-            <div key={index} className="project-card">
+          {projects.map((project) => (
+            <div key={project.id} className="project-card">
               <img src={project.image} alt={project.title} className="project-image" />
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
-                <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="demo-button">
-                  Demo
-                </a>
+                <a href={project.demoLink} className="demo-button">View Demo</a>
               </div>
             </div>
           ))}
@@ -97,14 +95,14 @@ const OnePageApp = () => {
 
       {/* Packages Section */}
       <section className="packages-section">
-      <h2>Our Packages</h2>
-      <div className="packages-grid">
-        {packages.map((pkg) => (
-          <div key={pkg.id} className="package-card">
-            <div className="image-container">
-              <img src={pkg.image} alt={pkg.name} className="package-image" />
-            </div>
-            <div className="package-content">
+        <h2>Our Packages</h2>
+          <div className="packages-grid">
+            {packages.map((pkg) => (
+              <div key={pkg.id} className="package-card">
+                <div className="image-container">
+                  <img src={pkg.image} alt={pkg.name} className="package-image" />
+                </div>
+              <div className="package-content">
 
             </div>
           </div>
