@@ -19,24 +19,15 @@ const tieUps = [
 const packages = [
   {
     id: 1,
-    name: "Basic Package",
-    price: "$99/month",
     image: "p1.jpg",
-    features: ["Feature A", "Feature B", "Feature C"],
   },
   {
     id: 2,
-    name: "Standard Package",
-    price: "$199/month",
     image: "p2.jpg",
-    features: ["Feature D", "Feature E", "Feature F"],
   },
   {
     id: 3,
-    name: "Premium Package",
-    price: "$299/month",
     image: "p3.jpg",
-    features: ["Feature G", "Feature H", "Feature I"],
   },
 ];
 
@@ -114,13 +105,7 @@ const OnePageApp = () => {
               <img src={pkg.image} alt={pkg.name} className="package-image" />
             </div>
             <div className="package-content">
-              <h3>{pkg.name}</h3>
-              <p className="price">{pkg.price}</p>
-              <ul>
-                {pkg.features.map((feature, idx) => (
-                  <li key={idx}>{feature}</li>
-                ))}
-              </ul>
+
             </div>
           </div>
         ))}
