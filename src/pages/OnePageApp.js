@@ -23,11 +23,11 @@ const packages = [
   },
   {
     id: 2,
-    image: "p2.jpg",
+    image: "p2.jpeg",
   },
   {
     id: 3,
-    image: "p3.jpg",
+    image: "p3.jpeg",
   },
 ];
 
